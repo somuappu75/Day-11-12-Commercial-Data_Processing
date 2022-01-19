@@ -15,7 +15,7 @@ namespace Commercial_Data_Processing
             string acc = @"D:\VisualStudio\repos\Commercial-Data_Processing\Commercial-Data_Processing\Account.json";
            StockSupport stockSupport = JsonConvert.DeserializeObject<StockSupport>(File.ReadAllText(file));
 
-           
+           //Stock Mangement Methods
             Console.WriteLine("--------------------------##### STOCK MANAGEMENT METHODS  #####----------------------------\n");
             Console.WriteLine("Choose Your Option to perform on Stock Management\n 1.Add a Stock\n 2.Remove a Stock\n 3.Display Stocks");
 
